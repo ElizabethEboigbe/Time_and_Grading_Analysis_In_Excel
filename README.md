@@ -132,35 +132,42 @@ Using the date column, I applied sorting and filters to identify the 15 youngest
 <img width="340" height="328" alt="Screenshot 2025-09-04 051920" src="https://github.com/user-attachments/assets/483b8102-3a46-4492-96a3-1bc6aa5ef62b" />
 
 3) What are the names of students born in the month of April?  
-Using the date of birth column, I clicked on the filter drop-down and clicked on date filter and from the drop-down I clicked on “all date in the period” and selected April.  
-[screenshot]  
+Using the date of birth column, I clicked on the filter drop-down and clicked on date filter and from the drop-down I clicked on “all date in the period” and selected April.
+ 
+<img width="800" height="543" alt="Screenshot 2025-09-04 052223" src="https://github.com/user-attachments/assets/de1a95ec-55f1-43f2-88a2-ff515eb8e88c" />
 
-4) How many of tutor Robinson’s students live in private accommodation?  
-Using the tutor’s column filter, I selected “Robinson” and also filtered the hall (accommodation) to private. This showed the exact number to be 6.  
-[screenshot]  
+5) How many of tutor Robinson’s students live in private accommodation?  
+Using the tutor’s column filter, I selected “Robinson” and also filtered the hall (accommodation) to private. This showed the exact number to be 6.
+ 
+<img width="602" height="144" alt="Screenshot 2025-09-04 052334" src="https://github.com/user-attachments/assets/93dcb2aa-8889-4a4a-92fd-f930c18056f7" />
 
-5) Show the 17 oldest students.  
+7) Show the 17 oldest students.  
 Using the filter on the date of birth column to sort in ascending order, I was able to get the 17 oldest students.  
-[screenshot]  
 
-6) Display all the students that are not living in private accommodation.  
+<img width="801" height="358" alt="Screenshot 2025-09-04 052614" src="https://github.com/user-attachments/assets/f372652a-3cfe-4e34-bc16-0392c5462f85" />
+
+8) Display all the students that are not living in private accommodation.  
 From the hall column filter, I unchecked “private” and got the students not living in private accommodation.  
-[screenshot]  
+  
+<img width="438" height="543" alt="Screenshot 2025-09-04 052730" src="https://github.com/user-attachments/assets/0fc56b16-c152-4541-a77a-0e3ef819b3a6" />
 
-7) How many blank spaces are there in “other_initials” column?  
+9) How many blank spaces are there in “other_initials” column?  
 Using the count blank formula, there are 114 blank spaces in other_initials.  
 
-8) Who are the students without middle name as initial?  
+10) Who are the students without middle name as initial?  
 Using the other_initial filter, I was able to get the names of students without middle names.  
-[screenshot]  
+      
+<img width="349" height="546" alt="Screenshot 2025-09-04 052832" src="https://github.com/user-attachments/assets/79dc4b10-d59b-4bef-8151-6c71f366dfdf" />
 
-9) Who are the students with middle name as initial?  
+11) Who are the students with middle name as initial?  
 The other_initial column filter was used to get the names of students with middle names.  
-[screenshot]  
+   
+<img width="344" height="542" alt="Screenshot 2025-09-04 052923" src="https://github.com/user-attachments/assets/5453b3b7-960c-4432-8f72-d44a5a913761" />
 
-10) Show all the St Patrick’s students that live in Bridges accommodation.  
-The hall and tutor column filter was used to identify St Patrick’s students that live in Bridges accommodation.  
-[screenshot]  
+12) Show all the St Patrick’s students that live in Bridges accommodation.  
+The hall and tutor column filter was used to identify St Patrick’s students that live in Bridges accommodation. One student. 
+   
+<img width="441" height="46" alt="Screenshot 2025-09-04 053046" src="https://github.com/user-attachments/assets/6ca8d8f2-def4-4282-ace2-6d3bf3db2686" />
 
 ### Formulas Used
 Reference cells: J2 (date of birth), K2 (departure date), M (month)  
@@ -202,14 +209,16 @@ The grading system dataset contained student names, marks, and grades, where Exc
 
 ### Key Questions and Answers
 1. What grades correspond to each student’s score?  
-Using Excel formula (LOOKUP).  
-[screenshot]  
+Using Excel formula (LOOKUP).
+ 
+<img width="382" height="405" alt="Screenshot 2025-09-04 053244" src="https://github.com/user-attachments/assets/d5be44ca-9483-4274-aeea-d3746bda1727" />
 
-2. How many students are qualified versus not qualified?  
-Using formula (IF), 6 students were not qualified, while 6 students were qualified.  
-[screenshot]  
+3. How many students are qualified versus not qualified?  
+Using formula (IF), 6 students were not qualified, while 6 students were qualified.
+  
+ <img width="963" height="251" alt="Screenshot 2025-09-04 053405" src="https://github.com/user-attachments/assets/6f6cf500-046a-4bfe-b0b4-0ed5d7b3e7a0" />
 
-3. Which students achieved the highest and lowest grades?  
+5. Which students achieved the highest and lowest grades?  
 - Highest: **Ebuwa Edowaye** with 95 marks.  
 - Lowest: **Ogbes Okpebholo** with 40 marks.  
 
