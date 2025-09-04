@@ -74,21 +74,21 @@ Reference cells include:
 
 2. `=TODAY()` – Current date (recalculates daily).
 3. `=NOW()` – Current date and time.
-4. =TIME(10,15,0) – Creates a time value for 10:15:00 (H:M:S).
-5. =YEAR(E2) – Year from a date in E2.
-6. =MONTH(E2) – Month from E2.
-7. =DAY(E2) – Day of month from E2.
-8. =EDATE(E2,-10) – Date 10 months earlier than E2 (back date by 10 months).
-9. =EDATE(E3,-6) – Back date by 6 months (use positive for future).
-10. =EOMONTH(E2,7) – Last day of 7 months after E2.
-11. =DATEDIF(J11,M11,"Y") – Returns the total number of complete years between the two dates.
-12. =DATEDIF(J11,M11,"M") – Returns the total number of complete months between the two dates.
-13. =DATEDIF(J11,M11,"MD") – Returns the total number of days difference, ignoring both month and years.
-14. =DATEDIF(J11,M11,"YM") – Returns the difference in months, ignoring years.
-15. =DATEDIF(J11,M11,"YD") – Returns the difference in days, ignoring years.
-16. =DATEDIF(J11,TODAY(),"Y") – Returns the current age (in years) based on the given start date and today’s date.
-17. =WORKDAY(J11,10) – Returns the date after 10 working days from the start date.
-18. =WEEKDAY(J11) – Returns the numeric representation of the weekday (1–7) for the given date.
+4. `=TIME(10,15,0)` – Creates a time value for 10:15:00 (H:M:S).
+5. `=YEAR(E2)` – Year from a date in E2.
+6. `=MONTH(E2)` – Month from E2.
+7. `=DAY(E2)` – Day of month from E2.
+8. `=EDATE(E2,-10)` – Date 10 months earlier than E2 (back date by 10 months).
+9. `=EDATE(E3,-6)` – Back date by 6 months (use positive for future).
+10. `=EOMONTH(E2,7)` – Last day of 7 months after E2.
+11. `=DATEDIF(J11,M11,"Y")` – Returns the total number of complete years between the two dates.
+12. `=DATEDIF(J11,M11,"M")` – Returns the total number of complete months between the two dates.
+13. `=DATEDIF(J11,M11,"MD")` – Returns the total number of days difference, ignoring both month and years.
+14. `=DATEDIF(J11,M11,"YM")` – Returns the difference in months, ignoring years.
+15. `=DATEDIF(J11,M11,"YD")` – Returns the difference in days, ignoring years.
+16. `=DATEDIF(J11,TODAY(),"Y")` – Returns the current age (in years) based on the given start date and today’s date.
+17. `=WORKDAY(J11,10)` – Returns the date after 10 working days from the start date.
+18. `=WEEKDAY(J11)` – Returns the numeric representation of the weekday (1–7) for the given date.
 
 ### Key Insights
 - `TEXT()` is a way to turn a month number into a month name.  
@@ -164,13 +164,13 @@ The hall and tutor column filter was used to identify St Patrick’s students th
 ### Formulas Used
 Reference cells: J2 (date of birth), K2 (departure date), M (month)  
 
-=DAY(J2) – Extract the day from the Date of Birth.
-=YEAR(J2) – Extract the year from the Date of Birth.
-=MONTH(J2) – Extract the month from the Date of Birth.
-=EDATE(J2,6) – Add 6 months to the Date of Birth.
-=DATEDIF(J2,K2,"M") – Calculate month difference between two dates.
-=EDATE(K2,-8) – Backdate departure date with 8 months.
-=WEEKDAY(J2) – Return the weekday for the Date of Birth.
+`=DAY(J2)` – Extract the day from the Date of Birth.
+`=YEAR(J2)` – Extract the year from the Date of Birth.
+`=MONTH(J2)` – Extract the month from the Date of Birth.
+`=EDATE(J2,6)` – Add 6 months to the Date of Birth.
+`=DATEDIF(J2,K2,"M")` – Calculate month difference between two dates.
+`=EDATE(K2,-8)` – Backdate departure date with 8 months.
+`=WEEKDAY(J2)` – Return the weekday for the Date of Birth.
 
 ### Key Insights
 - Dates can be dynamically transformed to derive age, month, or day values without manual entry.  
@@ -189,14 +189,14 @@ Reference cells: J2 (date of birth), K2 (departure date), M (month)
 The grading system dataset contained student names, marks, and grades, where Excel formulas such as `LOOKUP`, `IF`, and `COUNT` were applied to assign grades, determine qualification status, and summarize results.
 
 ### Formulas Used
-=VLOOKUP() – To automatically assign grades based on the marks obtained by students.
-=LOOKUP(C11,$B$4:$B$7,$C$4:$C$7)
+`=VLOOKUP()` – To automatically assign grades based on the marks obtained by students.
+`=LOOKUP(C11,$B$4:$B$7,$C$4:$C$7)`
 
-=IF(E38>30,"qualify for tomorrow python test","not qualify for tomorrow python test") – To determine whether a student was Qualified or Not Qualified based on their score.
+`=IF(E38>30,"qualify for tomorrow python test","not qualify for tomorrow python test")` – To determine whether a student was Qualified or Not Qualified based on their score.
 
-=COUNTIF(F38:F49,"qualify for tomorrow python test") – To count how many students were qualified and how many were not.
+`=COUNTIF(F38:F49,"qualify for tomorrow python test")` – To count how many students were qualified and how many were not.
 
-=LEFT(), =RIGHT(), =MID(), and =LEN() – To split student full names into First Name, Last Name, and Number.
+`=LEFT()`, `=RIGHT()`, `=MID()`, and `=LEN()` – To split student full names into First Name, Last Name, and Number.
 
 ### Key Questions and Answers
 1. What grades correspond to each student’s score?  
