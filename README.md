@@ -127,37 +127,38 @@ All additional columns were computed dynamically with formulas to ensure accurac
 
 ### Key Questions and Answers
 1) Who are the 15 youngest students?  
-Using the date column, I applied sorting and filters to identify the 15 youngest students.  
-[screenshot]  
+Using the date column, I applied sorting and filters to identify the 15 youngest students.
+ 
+<img width="340" height="328" alt="Screenshot 2025-09-04 051920" src="https://github.com/user-attachments/assets/483b8102-3a46-4492-96a3-1bc6aa5ef62b" />
 
-2) What are the names of students born in the month of April?  
+3) What are the names of students born in the month of April?  
 Using the date of birth column, I clicked on the filter drop-down and clicked on date filter and from the drop-down I clicked on “all date in the period” and selected April.  
 [screenshot]  
 
-3) How many of tutor Robinson’s students live in private accommodation?  
+4) How many of tutor Robinson’s students live in private accommodation?  
 Using the tutor’s column filter, I selected “Robinson” and also filtered the hall (accommodation) to private. This showed the exact number to be 6.  
 [screenshot]  
 
-4) Show the 17 oldest students.  
+5) Show the 17 oldest students.  
 Using the filter on the date of birth column to sort in ascending order, I was able to get the 17 oldest students.  
 [screenshot]  
 
-5) Display all the students that are not living in private accommodation.  
+6) Display all the students that are not living in private accommodation.  
 From the hall column filter, I unchecked “private” and got the students not living in private accommodation.  
 [screenshot]  
 
-6) How many blank spaces are there in “other_initials” column?  
+7) How many blank spaces are there in “other_initials” column?  
 Using the count blank formula, there are 114 blank spaces in other_initials.  
 
-7) Who are the students without middle name as initial?  
+8) Who are the students without middle name as initial?  
 Using the other_initial filter, I was able to get the names of students without middle names.  
 [screenshot]  
 
-8) Who are the students with middle name as initial?  
+9) Who are the students with middle name as initial?  
 The other_initial column filter was used to get the names of students with middle names.  
 [screenshot]  
 
-9) Show all the St Patrick’s students that live in Bridges accommodation.  
+10) Show all the St Patrick’s students that live in Bridges accommodation.  
 The hall and tutor column filter was used to identify St Patrick’s students that live in Bridges accommodation.  
 [screenshot]  
 
