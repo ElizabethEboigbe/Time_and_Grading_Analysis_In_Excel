@@ -183,8 +183,9 @@ Reference cells: J2 (date of birth), K2 (departure date), M (month)
 ## 3. Grading System
 
 ### Data used
-[file link for dataset]
 
+- <a href="https://github.com/ElizabethEboigbe/Time_and_Grading_Analysis_In_Excel/blob/main/Grading%20System.xlsx">Dataset<a/>
+ 
 ### Description
 The grading system dataset contained student names, marks, and grades, where Excel formulas such as `LOOKUP`, `IF`, and `COUNT` were applied to assign grades, determine qualification status, and summarize results.
 
