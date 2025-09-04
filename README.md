@@ -110,8 +110,8 @@ Reference cells include:
 ## 2. Time Functions (Student Dataset)
 
 ### Data used
-[file link for dataset]
-
+- <a href="https://github.com/ElizabethEboigbe/Time_and_Grading_Analysis_In_Excel/blob/main/Time%20Function-Student.xlsx">Dataset</a>
+ 
 ### Description
 This dataset contains detailed student records with columns such as:  
 Student number, surname, title, first name, other initials, hall, user id, tutor, option, date of birth, departure date.  
