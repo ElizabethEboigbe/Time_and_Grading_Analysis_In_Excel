@@ -72,8 +72,8 @@ Reference cells include:
 • 29 – multiplies the month number by 29 to generate a valid Excel date serial for that month.
 • MMMM – format the date into the full month name.
 
-2.  `=TODAY()` – Current date (recalculates daily).
-3. =NOW() – Current date and time.
+2. `=TODAY()` – Current date (recalculates daily).
+3. `=NOW()` – Current date and time.
 4. =TIME(10,15,0) – Creates a time value for 10:15:00 (H:M:S).
 5. =YEAR(E2) – Year from a date in E2.
 6. =MONTH(E2) – Month from E2.
